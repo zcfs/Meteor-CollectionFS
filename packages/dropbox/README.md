@@ -1,4 +1,4 @@
-cfs:dropbox
+zcfs:dropbox
 =========================
 
 NOTE: This package is under active development right now (2015-05-08). It has
@@ -6,12 +6,12 @@ bugs and the API may continue to change. Please help test it and fix bugs,
 but don't use in production yet.
 
 A Meteor package that adds Dropbox storage for
-[CollectionFS](https://github.com/CollectionFS/Meteor-CollectionFS).
+[CollectionFS](https://github.com/zcfs/Meteor-CollectionFS).
 
 ## Installation
 
 ```
-$ meteor add cfs:dropbox
+$ meteor add zcfs:dropbox
 ```
 
 ## Dropbox Setup
@@ -43,7 +43,7 @@ Files = new FS.Collection("files", {
 });
 ```
 
-Refer to the CollectionFS project [README](https://github.com/CollectionFS/Meteor-CollectionFS/blob/master/README.md) for more information.
+Refer to the CollectionFS project [README](https://github.com/zcfs/Meteor-CollectionFS/blob/master/README.md) for more information.
 
 
 **For Step 2:**
@@ -104,9 +104,9 @@ Avatars = new FS.Collection("avatars", {
 
 ## API
 
-[For Users](https://github.com/CollectionFS/Meteor-CollectionFS/tree/master/packages/dropbox/api.md)
+[For Users](https://github.com/zcfs/Meteor-CollectionFS/tree/master/packages/dropbox/api.md)
 
-[For Contributors](https://github.com/CollectionFS/Meteor-CollectionFS/tree/master/packages/dropbox/internal.api.md)
+[For Contributors](https://github.com/zcfs/Meteor-CollectionFS/tree/master/packages/dropbox/internal.api.md)
 
 ## Contributors
 

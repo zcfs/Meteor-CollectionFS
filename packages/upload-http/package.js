@@ -1,5 +1,5 @@
 Package.describe({
-  name: 'cfs:upload-http',
+  name: 'zcfs:upload-http',
   version: '0.0.21',
   summary: 'CollectionFS, HTTP File Upload',
 });
@@ -8,12 +8,12 @@ Package.onUse(function(api) {
   api.versionsFrom('1.0');
 
   api.use([
-    'cfs:base-package@0.0.30',
-    'cfs:tempstore@0.1.4',
-    'cfs:file@0.1.16',
-    'cfs:access-point@0.1.49',
-    'cfs:power-queue@0.9.11',
-    'cfs:reactive-list@0.0.9'
+    'zcfs:base-package@0.0.30',
+    'zcfs:tempstore@0.1.4',
+    'zcfs:file@0.1.16',
+    'zcfs:access-point@0.1.49',
+    'zcfs:power-queue@0.9.11',
+    'zcfs:reactive-list@0.0.9'
   ]);
 
   api.addFiles([

@@ -1,4 +1,4 @@
-cfs:s3
+zcfs:s3
 =========================
 
 NOTE: This package is under active development right now (2014-5-12). It has
@@ -6,14 +6,14 @@ bugs and the API may continue to change. Please help test it and fix bugs,
 but don't use in production yet.
 
 A Meteor package that adds Amazon S3 storage for
-[CollectionFS](https://github.com/CollectionFS/Meteor-CollectionFS).
+[CollectionFS](https://github.com/zcfs/Meteor-CollectionFS).
 
 ## Installation
 
 Install using Meteorite. When in a Meteor app directory, enter:
 
 ```
-$ meteor add cfs:s3
+$ meteor add zcfs:s3
 ```
 
 ## S3 Setup
@@ -94,7 +94,7 @@ Images = new FS.Collection("images", {
     * "bucket-owner-read"
     * "bucket-owner-full-control"
 
-Refer to the [CollectionFS](https://github.com/CollectionFS/Meteor-CollectionFS)
+Refer to the [CollectionFS](https://github.com/zcfs/Meteor-CollectionFS)
 package documentation for more information.
 
 
@@ -164,9 +164,9 @@ Avatars = new FS.Collection("avatars", {
 
 ## API
 
-[For Users](https://github.com/CollectionFS/Meteor-CollectionFS/blob/master/packages/s3/api.md)
+[For Users](https://github.com/zcfs/Meteor-CollectionFS/blob/master/packages/s3/api.md)
 
-[For Contributors](https://github.com/CollectionFS/Meteor-CollectionFS/blob/master/packages/s3/internal.api.md)
+[For Contributors](https://github.com/zcfs/Meteor-CollectionFS/blob/master/packages/s3/internal.api.md)
 
 ## Contributors
 

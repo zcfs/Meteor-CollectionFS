@@ -1,8 +1,8 @@
 Package.describe({
-  name: 'cfs:access-point',
+  name: 'zcfs:access-point',
   version: '0.1.50',
   summary: 'CollectionFS, add ddp and http accesspoint capability',
-  git: 'https://github.com/CollectionFS/Meteor-cfs-access-point.git'
+  git: 'https://github.com/zcfs/Meteor-cfs-access-point.git'
 });
 
 Npm.depends({
@@ -14,19 +14,19 @@ Package.onUse(function(api) {
 
   // This imply is needed for tests, and is technically probably correct anyway.
   api.imply([
-    'cfs:base-package'
+    'zcfs:base-package'
   ]);
 
   api.use([
     //CFS packages
-    'cfs:base-package@0.0.30',
-    'cfs:file@0.1.16',
+    'zcfs:base-package@0.0.30',
+    'zcfs:file@0.1.16',
     //Core packages
     'check',
     'ejson',
     //Other packages
-    'cfs:http-methods@0.0.29',
-    'cfs:http-publish@0.0.13'
+    'zcfs:http-methods@0.0.29',
+    'zcfs:http-publish@0.0.13'
   ]);
 
   api.addFiles([
@@ -46,9 +46,9 @@ Package.onTest(function (api) {
 
   api.use([
     //CFS packages
-    'cfs:access-point',
-    'cfs:standard-packages@0.0.2',
-    'cfs:gridfs@0.0.0',
+    'zcfs:access-point',
+    'zcfs:standard-packages@0.0.2',
+    'zcfs:gridfs@0.0.0',
     //Core packages
     'test-helpers',
     'http',

@@ -12,20 +12,20 @@ or wants to make their own storage adapter.
 
 ## All Packages
 
-* cfs:standard-packages (implies some component packages)
-  * cfs:base-package
-  * cfs:file
-  * cfs:collection
-  * cfs:collection-filters
-  * cfs:access-point
-  * cfs:worker
-  * cfs:upload-http
-* cfs:graphicsmagick
-* cfs:ui
-* cfs:filesystem
-* cfs:gridfs
-* cfs:s3
-* cfs:dropbox
+* zcfs:standard-packages (implies some component packages)
+  * zcfs:base-package
+  * zcfs:file
+  * zcfs:collection
+  * zcfs:collection-filters
+  * zcfs:access-point
+  * zcfs:worker
+  * zcfs:upload-http
+* zcfs:graphicsmagick
+* zcfs:ui
+* zcfs:filesystem
+* zcfs:gridfs
+* zcfs:s3
+* zcfs:dropbox
 
 ## Collections
 

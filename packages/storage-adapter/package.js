@@ -1,6 +1,6 @@
 Package.describe({
-  git: 'https://github.com/CollectionFS/Meteor-cfs-storage-adapter.git',
-  name: 'cfs:storage-adapter',
+  git: 'https://github.com/zcfs/Meteor-cfs-storage-adapter.git',
+  name: 'zcfs:storage-adapter',
   version: '0.2.4',
   summary: 'CollectionFS, Class for creating Storage adapters'
 });
@@ -14,7 +14,7 @@ Package.onUse(function(api) {
 
   api.use([
     // CFS
-    'cfs:base-package@0.0.30',
+    'zcfs:base-package@0.0.30',
     // Core
     'deps',
     'check',
@@ -27,7 +27,7 @@ Package.onUse(function(api) {
 
   // We want to make sure that its added to scope for now if installed.
   // We have set a deprecation warning on the transform scope
-  api.use('cfs:graphicsmagick@0.0.17', 'server', { weak: true });
+  api.use('zcfs:graphicsmagick@0.0.17', 'server', { weak: true });
 
   api.addFiles([
     'storageAdapter.client.js'
@@ -40,7 +40,7 @@ Package.onUse(function(api) {
 });
 
 Package.onTest(function (api) {
-  api.use('cfs:storage-adapter');
+  api.use('zcfs:storage-adapter');
   api.use('test-helpers', 'server');
   api.use(['tinytest', 'underscore', 'ejson', 'ordered-dict',
            'random', 'deps']);

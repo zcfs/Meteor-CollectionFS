@@ -19,9 +19,9 @@ created.
 
 Victor Leung wrote a great [quick start guide](https://medium.com/@victorleungtw/how-to-upload-files-with-meteor-js-7b8e811510fa) for the most basic image uploading and displaying task.
 
-[Check out the Wiki](https://github.com/CollectionFS/Meteor-CollectionFS/wiki) for more information, code examples and how-tos.
+[Check out the Wiki](https://github.com/zcfs/Meteor-CollectionFS/wiki) for more information, code examples and how-tos.
 
-* Updated cfs:grid mongodb dependency to 2.2.4 (Meteor 1.4)
+* Updated zcfs:grid mongodb dependency to 2.2.4 (Meteor 1.4)
 
 ## Table of Contents
 
@@ -71,7 +71,7 @@ App.accessRule("blob:*");
 
 ### Documentation Feedback
 
-If you have Documentation feedback/requests please post on [issue 206](https://github.com/CollectionFS/Meteor-CollectionFS/issues/206)
+If you have Documentation feedback/requests please post on [issue 206](https://github.com/zcfs/Meteor-CollectionFS/issues/206)
 
 ## Installation
 
@@ -81,28 +81,28 @@ If you have Documentation feedback/requests please post on [issue 206](https://g
 $ cd <app dir>
 ```
 
-You must add `cfs:standard-packages`, which is the main package:
+You must add `zcfs:standard-packages`, which is the main package:
 
 ```bash
-$ meteor add cfs:standard-packages
+$ meteor add zcfs:standard-packages
 ```
 
-You must add at least one storage adapter package. See the Storage Adapters section for a list of the available storage adapter packages. At least `cfs:gridfs` or `cfs:filesystem` must be added, too, even if you are not using them. The temporary store requires one of them.
+You must add at least one storage adapter package. See the Storage Adapters section for a list of the available storage adapter packages. At least `zcfs:gridfs` or `zcfs:filesystem` must be added, too, even if you are not using them. The temporary store requires one of them.
 
 ```bash
-$ meteor add cfs:gridfs
+$ meteor add zcfs:gridfs
 
 # OR
 
-$ meteor add cfs:filesystem
+$ meteor add zcfs:filesystem
 
 # OR
 
-$ meteor add cfs:s3
+$ meteor add zcfs:s3
 
 # OR
 
-$ meteor add cfs:dropbox
+$ meteor add zcfs:dropbox
 
 # OR
 
@@ -268,10 +268,10 @@ Storage adapters handle retrieving the file data and removing the file data
 when you delete the file. There are currently four available storage adapters, which are in separate
 packages. Refer to the package documentation for usage instructions.
 
-* [cfs:gridfs](https://github.com/CollectionFS/Meteor-CollectionFS/tree/devel/packages/gridfs): Allows you to save data to mongodb GridFS.
-* [cfs:filesystem](https://github.com/CollectionFS/Meteor-CollectionFS/tree/devel/packages/filesystem): Allows you to save to the server filesystem.
-* [cfs:s3](https://github.com/CollectionFS/Meteor-CollectionFS/tree/devel/packages/s3): Allows you to save to an Amazon S3 bucket.
-* [cfs:dropbox](https://github.com/CollectionFS/Meteor-CollectionFS/tree/devel/packages/dropbox): Allows you to save to a Dropbox account.
+* [zcfs:gridfs](https://github.com/zcfs/Meteor-CollectionFS/tree/devel/packages/gridfs): Allows you to save data to mongodb GridFS.
+* [zcfs:filesystem](https://github.com/zcfs/Meteor-CollectionFS/tree/devel/packages/filesystem): Allows you to save to the server filesystem.
+* [zcfs:s3](https://github.com/zcfs/Meteor-CollectionFS/tree/devel/packages/s3): Allows you to save to an Amazon S3 bucket.
+* [zcfs:dropbox](https://github.com/zcfs/Meteor-CollectionFS/tree/devel/packages/dropbox): Allows you to save to a Dropbox account.
 * [iyyang:cfs-aliyun](https://github.com/yyang/cfs-aliyun): Allows you to save to Aliyun OSS Storage.
 
 ### Securing sensitive information
@@ -345,7 +345,7 @@ A common use for `transformWrite` is to manipulate images before saving them.
 To get this set up:
 
 1. Install [GraphicsMagick](http://www.graphicsmagick.org/) or [ImageMagick](http://www.imagemagick.org/script/index.php) on your development machine and on any server that will host your app. (The free Meteor deployment servers do not have either of these, so you can't deploy to there.) These are normal operating system applications, so you have to install them using the correct method for your OS. For example, on Mac OSX you can use `brew install graphicsmagick` assuming you have Homebrew installed.
-2. Add the `cfs:graphicsmagick` Meteor package to your app: `meteor add cfs:graphicsmagick`
+2. Add the `zcfs:graphicsmagick` Meteor package to your app: `meteor add zcfs:graphicsmagick`
 
 ### Basic Example
 
@@ -368,7 +368,7 @@ Images = new FS.Collection("images", {
 });
 ```
 
-Check out the [Wiki](https://github.com/CollectionFS/Meteor-CollectionFS/wiki) for more examples and How-tos.
+Check out the [Wiki](https://github.com/zcfs/Meteor-CollectionFS/wiki) for more examples and How-tos.
 
 ### Optimizing
 
@@ -517,18 +517,18 @@ These methods can all be used as UI helpers, too:
 
 Also, rather than setting the `data` property directly, you should use the `attachData` method.
 
-[Check out the full public API for `FS.File`](https://github.com/CollectionFS/Meteor-CollectionFS/blob/devel/packages/file/api.md).
+[Check out the full public API for `FS.File`](https://github.com/zcfs/Meteor-CollectionFS/blob/devel/packages/file/api.md).
 
 ### Storing FS.File references in your objects
 
 **_NOTE:_**
-_At the moment storing FS.File - References in MongoDB on the server side doesn't work. See eg. (https://github.com/CollectionFS/Meteor-cfs-ejson-file/issues/1) (https://github.com/CollectionFS/Meteor-CollectionFS/issues/356)
+_At the moment storing FS.File - References in MongoDB on the server side doesn't work. See eg. (https://github.com/zcfs/Meteor-cfs-ejson-file/issues/1) (https://github.com/zcfs/Meteor-CollectionFS/issues/356)
 (https://github.com/meteor/meteor/issues/1890)._
 
 _Instead store the _id's of your file objects and then fetch the FS.File-Objects from your CollectionFS - Collection._
 
 Often your files are part of another entity. You can store a reference to the file directly in the entity.
-You need to add `cfs:ejson-file` to your packages with `meteor add cfs:ejson-file`.
+You need to add `zcfs:ejson-file` to your packages with `meteor add zcfs:ejson-file`.
 Then you can do for example:
 
 ```js
@@ -660,7 +660,7 @@ Use the `url` method with an `img` element in your markup:
 Notes:
 * `{{this.url}}` will assume the first store in your `stores` array. In this example, we're displaying the image from the "thumbs" store but wrapping it in a link that will load the image from the primary store (for example, the original image or a large image).
 * The `uploading` and `storing` options allow you to specify a static image that will be shown in place of the real image while it is being uploaded and stored. You can alternatively use `if` blocks like `{{#if this.isUploaded}}` and `{{#if this.hasStored 'thumbs'}}` to display something different until upload and storage is complete.
-* These helpers are actually just instance methods on the `FS.File` instances, so there are others you can use, such as `this.isImage`. See [the API documentation](https://github.com/CollectionFS/Meteor-CollectionFS/blob/master/packages/file/api.md). The `url` method is documented separately [here](https://github.com/CollectionFS/Meteor-CollectionFS/blob/master/packages/access-point/api.md#fsfileurloptionsanywhere).
+* These helpers are actually just instance methods on the `FS.File` instances, so there are others you can use, such as `this.isImage`. See [the API documentation](https://github.com/zcfs/Meteor-CollectionFS/blob/master/packages/file/api.md). The `url` method is documented separately [here](https://github.com/zcfs/Meteor-CollectionFS/blob/master/packages/access-point/api.md#fsfileurloptionsanywhere).
 
 
 
@@ -669,7 +669,7 @@ Notes:
 There are two types of UI helpers available. First, some of the `FS.File`
 instance methods will work when called in templates, too. These are available
 to you automatically and are documented here. Second, some additional useful helpers are provided
-in the optional [cfs-ui](https://github.com/CollectionFS/Meteor-cfs-ui) package.
+in the optional [cfs-ui](https://github.com/zcfs/Meteor-cfs-ui) package.
 These make it easy to render a delete button or an upload progress bar
 and more. Refer to the `cfs-ui` readme.
 
@@ -693,7 +693,7 @@ specify the store name, the URL will be for the copy in the first defined store.
 {{/each}}
 ```
 
-This is actually using the [url method](https://github.com/CollectionFS/Meteor-CollectionFS/blob/master/packages/access-point/api.md#fsfileurloptionsanywhere), which is added to the `FS.File` prototype by the `cfs:access-point` package. You can use any of the options mentioned in the API documentation, and you can call it from client and server code.
+This is actually using the [url method](https://github.com/zcfs/Meteor-CollectionFS/blob/master/packages/access-point/api.md#fsfileurloptionsanywhere), which is added to the `FS.File` prototype by the `zcfs:access-point` package. You can use any of the options mentioned in the API documentation, and you can call it from client and server code.
 
 ### isImage
 

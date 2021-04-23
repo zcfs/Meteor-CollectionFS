@@ -1,4 +1,4 @@
-## cfs:file Public API ##
+## zcfs:file Public API ##
 
 CollectionFS, FS.File object
 

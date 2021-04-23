@@ -1,8 +1,8 @@
 Package.describe({
   version: '0.0.30',
-  name: 'cfs:base-package',
+  name: 'zcfs:base-package',
   summary: 'CollectionFS, Base package',
-  git: 'https://github.com/CollectionFS/Meteor-cfs-base-package.git'
+  git: 'https://github.com/zcfs/Meteor-cfs-base-package.git'
 });
 
 Package.onUse(function(api) {
@@ -28,7 +28,7 @@ Package.onUse(function(api) {
 });
 
 // Package.on_test(function (api) {
-//   api.use(['cfs:base-package', 'cfs-file']);
+//   api.use(['zcfs:base-package', 'cfs-file']);
 //   api.use('test-helpers', 'server');
 //   api.use(['tinytest', 'underscore', 'ejson', 'ordered-dict',
 //            'random', 'deps']);

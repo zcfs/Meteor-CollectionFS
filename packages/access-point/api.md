@@ -1,4 +1,4 @@
-## cfs:access-point Public API ##
+## zcfs:access-point Public API ##
 
 CollectionFS, add ddp and http accesspoint capability
 

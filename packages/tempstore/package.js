@@ -1,6 +1,6 @@
  Package.describe({
-  git: 'https://github.com/CollectionFS/Meteor-cfs-tempstore.git',
-  name: 'cfs:tempstore',
+  git: 'https://github.com/zcfs/Meteor-cfs-tempstore.git',
+  name: 'zcfs:tempstore',
   version: '0.1.6',
   summary: 'CollectionFS, temporary storage'
 });
@@ -10,10 +10,10 @@ Npm.depends({
 });
 
 Package.onUse(function(api) {
-  api.use(['cfs:base-package@0.0.30', 'cfs:file@0.1.16', 'ecmascript@0.1.0']);
+  api.use(['zcfs:base-package@0.0.30', 'zcfs:file@0.1.16', 'ecmascript@0.1.0']);
 
-  api.use('cfs:filesystem@0.1.2', { weak: true });
-  api.use('cfs:gridfs@0.0.30', { weak: true });
+  api.use('zcfs:filesystem@0.1.2', { weak: true });
+  api.use('zcfs:gridfs@0.0.30', { weak: true });
 
   api.use('mongo@1.0.0');
 

@@ -1,8 +1,8 @@
 Package.describe({
-  name: 'cfs:filesaver',
+  name: 'zcfs:filesaver',
   version: '0.0.6',
   summary: 'CollectionFS, FileSaver by Eli Grey, http://eligrey.com',
-  git: 'https://github.com/CollectionFS/Meteor-cfs-filesaver.git'
+  git: 'https://github.com/zcfs/Meteor-cfs-filesaver.git'
 });
 
 Package.onUse(function(api) {
@@ -15,7 +15,7 @@ Package.onUse(function(api) {
 });
 
 Package.onTest(function (api) {
-  api.use('cfs:filesaver');
+  api.use('zcfs:filesaver');
   api.use('test-helpers', 'server');
   api.use(['tinytest', 'underscore', 'ejson', 'ordered-dict',
            'random', 'deps']);

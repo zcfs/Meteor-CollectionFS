@@ -78,10 +78,10 @@ packageList.forEach(function(packageName) {
       if (err) {
         if (/already exists/.test(err)) {
           counter.warning++;
-          console.log('"cfs:' + packageName + '" already published');
+          console.log('"zcfs:' + packageName + '" already published');
         } else {
           counter.error++;
-          console.log('Error publishing "cfs:' + packageName + '", try publishing manually');
+          console.log('Error publishing "zcfs:' + packageName + '", try publishing manually');
         }
       } else {
         // Print out log

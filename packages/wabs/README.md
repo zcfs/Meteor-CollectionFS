@@ -1,4 +1,4 @@
-cfs:wabs
+zcfs:wabs
 =========================
 
 NOTE: This package is under active development right now (2016-01-10). It has
@@ -6,14 +6,14 @@ bugs and the API may continue to change. Please help test it and fix bugs,
 but don't use in production yet.
 
 A Meteor package that adds Windows Azure Blob Storage (WABS) for
-[CollectionFS](https://github.com/CollectionFS/Meteor-CollectionFS).
+[CollectionFS](https://github.com/zcfs/Meteor-CollectionFS).
 
 ## Installation
 
 Install using Meteor. When in a Meteor app directory, enter:
 
 ```
-$ meteor add cfs:wabs
+$ meteor add zcfs:wabs
 ```
 
 ## Usage
@@ -38,7 +38,7 @@ Images = new FS.Collection("images", {
 ```
 
 ### Tips
-Refer to the [CollectionFS](https://github.com/CollectionFS/Meteor-CollectionFS)
+Refer to the [CollectionFS](https://github.com/zcfs/Meteor-CollectionFS)
 package documentation for more information.
 
 
@@ -96,9 +96,9 @@ Avatars = new FS.Collection("avatars", {
 
 ## API
 
-[For Users](https://github.com/CollectionFS/Meteor-CollectionFS/blob/master/packages/wabs/api.md)
+[For Users](https://github.com/zcfs/Meteor-CollectionFS/blob/master/packages/wabs/api.md)
 
-[For Contributors](https://github.com/CollectionFS/Meteor-CollectionFS/blob/master/packages/wabs/internal.api.md)
+[For Contributors](https://github.com/zcfs/Meteor-CollectionFS/blob/master/packages/wabs/internal.api.md)
 
 ## Contributors
 

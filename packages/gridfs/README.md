@@ -1,4 +1,4 @@
-cfs:gridfs
+zcfs:gridfs
 =========================
 
 NOTE: This package is under active development right now (2014-3-31). It has
@@ -6,7 +6,7 @@ bugs and the API may continue to change. Please help test it and fix bugs,
 but don't use in production yet.
 
 A Meteor package that adds [GridFS](http://docs.mongodb.org/manual/core/gridfs/) file storage for
-[CollectionFS](https://github.com/CollectionFS/Meteor-CollectionFS). When you
+[CollectionFS](https://github.com/zcfs/Meteor-CollectionFS). When you
 use this storage adapter, file data is stored in chunks in your MongoDB database.
 
 ## Installation
@@ -14,7 +14,7 @@ use this storage adapter, file data is stored in chunks in your MongoDB database
 Install using Meteorite. When in a Meteor app directory, enter:
 
 ```
-$ meteor add cfs:gridfs
+$ meteor add zcfs:gridfs
 ```
 
 ## Usage
@@ -37,12 +37,12 @@ Images = new FS.Collection("images", {
 
 More control over the MongoDB connection is available by specifying [MongoClient.connect options](http://mongodb.github.io/node-mongodb-native/driver-articles/mongoclient.html#mongoclient-connect-options) as a `mongoOptions` attribute in the options object on the constructor.
 
-Refer to the [CollectionFS](https://github.com/CollectionFS/Meteor-CollectionFS)
+Refer to the [CollectionFS](https://github.com/zcfs/Meteor-CollectionFS)
 package documentation for more information.
 
 ## API
 
-[For Users](https://github.com/CollectionFS/Meteor-CollectionFS/blob/master/packages/gridfs/api.md)
+[For Users](https://github.com/zcfs/Meteor-CollectionFS/blob/master/packages/gridfs/api.md)
 
-[For Contributors](https://github.com/CollectionFS/Meteor-CollectionFS/blob/master/packages/gridfs/internal.api.md)
+[For Contributors](https://github.com/zcfs/Meteor-CollectionFS/blob/master/packages/gridfs/internal.api.md)
 

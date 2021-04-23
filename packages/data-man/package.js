@@ -1,8 +1,8 @@
 Package.describe({
-  name: 'cfs:data-man',
+  name: 'zcfs:data-man',
   version: '0.0.6',
   summary: 'A data manager, allowing you to attach various types of data and get it back in various other types',
-  git: 'https://github.com/CollectionFS/Meteor-data-man.git'
+  git: 'https://github.com/zcfs/Meteor-data-man.git'
 });
 
 Npm.depends({
@@ -10,7 +10,7 @@ Npm.depends({
   'buffer-stream-reader': "0.1.1",
   //request: "2.44.0",
   // We use a specific commit from a fork of "request" package for now; we need fix for
-  // https://github.com/mikeal/request/issues/887 (https://github.com/CollectionFS/Meteor-CollectionFS/issues/347)
+  // https://github.com/mikeal/request/issues/887 (https://github.com/zcfs/Meteor-CollectionFS/issues/347)
   request: "https://github.com/aldeed/request/tarball/15f1a87cddb21050f5d79a2f4538150644cbc36e",
   temp: "0.7.0" // for tests only
 });
@@ -20,7 +20,7 @@ Package.onUse(function(api) {
 
   api.use(['ejson']);
 
-  api.use(['cfs:filesaver@0.0.6'], {weak: true});
+  api.use(['zcfs:filesaver@0.0.6'], {weak: true});
 
   api.export('DataMan');
 
@@ -41,7 +41,7 @@ Package.onUse(function(api) {
 });
 
 Package.onTest(function (api) {
-  api.use(['cfs:data-man', 'http', 'tinytest', 'test-helpers', 'cfs:http-methods@0.0.29']);
+  api.use(['zcfs:data-man', 'http', 'tinytest', 'test-helpers', 'zcfs:http-methods@0.0.29']);
 
   api.addFiles(['tests/common.js', 'tests/client-tests.js'], 'client');
   api.addFiles(['tests/common.js', 'tests/server-tests.js'], 'server');

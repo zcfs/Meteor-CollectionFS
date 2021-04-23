@@ -1,25 +1,25 @@
 # Changelog
 
 ## vCurrent
-## [v0.5.3] (https://github.com/CollectionFS/Meteor-CollectionFS/tree/v0.5.3)
+## [v0.5.3] (https://github.com/zcfs/Meteor-CollectionFS/tree/v0.5.3)
 #### 20/12/14 by Morten Henriksen
 - add changelog
 
 - Bump to version 0.5.3
 
-## [v0.5.2] (https://github.com/CollectionFS/Meteor-CollectionFS/tree/v0.5.2)
+## [v0.5.2] (https://github.com/zcfs/Meteor-CollectionFS/tree/v0.5.2)
 #### 17/12/14 by Morten Henriksen
 - Bump to version 0.5.2
 
-## [v0.5.1] (https://github.com/CollectionFS/Meteor-CollectionFS/tree/v0.5.1)
+## [v0.5.1] (https://github.com/zcfs/Meteor-CollectionFS/tree/v0.5.1)
 #### 17/12/14 by Morten Henriksen
 - mbr update, remove versions.json
 
 - Bump to version 0.5.1
 
-## [v0.5.0] (https://github.com/CollectionFS/Meteor-CollectionFS/tree/v0.5.0)
+## [v0.5.0] (https://github.com/zcfs/Meteor-CollectionFS/tree/v0.5.0)
 #### 17/12/14 by Morten Henriksen
-- Merge branch 'devel' of https://github.com/CollectionFS/Meteor-CollectionFS into devel
+- Merge branch 'devel' of https://github.com/zcfs/Meteor-CollectionFS into devel
 
 - mbr update versions and fix warnings
 
@@ -27,17 +27,17 @@
 
 - Fix #483
 
-- *Merged pull-request:* "mrt graphicsmagick instructions to meteor 0.9+" [#442](https://github.com/CollectionFS/Meteor-CollectionFS/issues/442) ([yogiben](https://github.com/yogiben))
+- *Merged pull-request:* "mrt graphicsmagick instructions to meteor 0.9+" [#442](https://github.com/zcfs/Meteor-CollectionFS/issues/442) ([yogiben](https://github.com/yogiben))
 
 - mrt graphicsmagick instructions to meteor 0.9+
 
 - mention underlying collection
 
-- *Merged pull-request:* "Added server-side Buffer example to README.md" [#405](https://github.com/CollectionFS/Meteor-CollectionFS/issues/405) ([abuddenb](https://github.com/abuddenb))
+- *Merged pull-request:* "Added server-side Buffer example to README.md" [#405](https://github.com/zcfs/Meteor-CollectionFS/issues/405) ([abuddenb](https://github.com/abuddenb))
 
 - change prop names
 
-- Merge branch 'devel' of https://github.com/CollectionFS/Meteor-CollectionFS into devel
+- Merge branch 'devel' of https://github.com/zcfs/Meteor-CollectionFS into devel
 
 - add "Display an Uploaded Image" example
 
@@ -51,7 +51,7 @@
 
 Patches by GitHub users [@yogiben](https://github.com/yogiben), [@abuddenb](https://github.com/abuddenb).
 
-## [v0.4.9] (https://github.com/CollectionFS/Meteor-CollectionFS/tree/v0.4.9)
+## [v0.4.9] (https://github.com/zcfs/Meteor-CollectionFS/tree/v0.4.9)
 #### 27/08/14 by Eric Dobbertin
 - add 0.9.0 instructions
 
@@ -59,7 +59,7 @@ Patches by GitHub users [@yogiben](https://github.com/yogiben), [@abuddenb](http
 
 - Added server-side Buffer example to README.md
 
-- *Merged pull-request:* "Updated README.md to reflect that FS.File - Objects can't be stored in t..." [#395](https://github.com/CollectionFS/Meteor-CollectionFS/issues/395) ([DanielDornhardt](https://github.com/DanielDornhardt))
+- *Merged pull-request:* "Updated README.md to reflect that FS.File - Objects can't be stored in t..." [#395](https://github.com/zcfs/Meteor-CollectionFS/issues/395) ([DanielDornhardt](https://github.com/DanielDornhardt))
 
 - Updated README.md to reflect that FS.File - Objects can't be stored in the Server MongoDB at the moment.
 
@@ -71,13 +71,13 @@ Patches by GitHub users [@yogiben](https://github.com/yogiben), [@abuddenb](http
 
 - add download button example
 
-- *Merged pull-request:* "Update README.md" [#354](https://github.com/CollectionFS/Meteor-CollectionFS/issues/354) ([karabijavad](https://github.com/karabijavad))
+- *Merged pull-request:* "Update README.md" [#354](https://github.com/zcfs/Meteor-CollectionFS/issues/354) ([karabijavad](https://github.com/karabijavad))
 
 - should say to use cfs-graphicsmagick pkg
 
 - fix typo
 
-- *Merged pull-request:* "Added "Storing FS.File references in your objects" chapter to README" [#311](https://github.com/CollectionFS/Meteor-CollectionFS/issues/311) ([Sanjo](https://github.com/Sanjo))
+- *Merged pull-request:* "Added "Storing FS.File references in your objects" chapter to README" [#311](https://github.com/zcfs/Meteor-CollectionFS/issues/311) ([Sanjo](https://github.com/Sanjo))
 
 - Added "Storing FS.File references in your objects" chapter to README
 
@@ -87,41 +87,41 @@ Patches by GitHub users [@yogiben](https://github.com/yogiben), [@abuddenb](http
 
 - additions and clarifications
 
-- *Merged pull-request:* "Custom Metadata misleading example" [#282](https://github.com/CollectionFS/Meteor-CollectionFS/issues/282) ([czeslaaw](https://github.com/czeslaaw))
+- *Merged pull-request:* "Custom Metadata misleading example" [#282](https://github.com/zcfs/Meteor-CollectionFS/issues/282) ([czeslaaw](https://github.com/czeslaaw))
 
 - Custom Metadata misleading example
 
 Patches by GitHub users [@DanielDornhardt](https://github.com/DanielDornhardt), [@karabijavad](https://github.com/karabijavad), [@Sanjo](https://github.com/Sanjo), [@czeslaaw](https://github.com/czeslaaw).
 
-## [v0.4.8] (https://github.com/CollectionFS/Meteor-CollectionFS/tree/v0.4.8)
+## [v0.4.8] (https://github.com/zcfs/Meteor-CollectionFS/tree/v0.4.8)
 #### 09/04/14 by Eric Dobbertin
 - Add cfs-collection-filters pkg by default
 
 - Use FS.Utility.setFileExtension in example
 
-## [v0.4.7] (https://github.com/CollectionFS/Meteor-CollectionFS/tree/v0.4.7)
+## [v0.4.7] (https://github.com/zcfs/Meteor-CollectionFS/tree/v0.4.7)
 #### 05/04/14 by Morten Henriksen
 - corrections, and move image examples here so we can deprecate cfs-imagemagick
 
-## [v0.4.6] (https://github.com/CollectionFS/Meteor-CollectionFS/tree/v0.4.6)
+## [v0.4.6] (https://github.com/zcfs/Meteor-CollectionFS/tree/v0.4.6)
 #### 02/04/14 by Morten Henriksen
-- *Fixed bug:* "Documentation Issues" [#241](https://github.com/CollectionFS/Meteor-CollectionFS/issues/241)
+- *Fixed bug:* "Documentation Issues" [#241](https://github.com/zcfs/Meteor-CollectionFS/issues/241)
 
 - point to cfs-graphicsmagick readme for transform examples
 
-## [v0.4.5] (https://github.com/CollectionFS/Meteor-CollectionFS/tree/v0.4.5)
+## [v0.4.5] (https://github.com/zcfs/Meteor-CollectionFS/tree/v0.4.5)
 #### 31/03/14 by Eric Dobbertin
 - use latest releases
 
 - Add yet a note about mrt and collectionFS in the readme
 
-## [v0.4.4] (https://github.com/CollectionFS/Meteor-CollectionFS/tree/v0.4.4)
+## [v0.4.4] (https://github.com/zcfs/Meteor-CollectionFS/tree/v0.4.4)
 #### 25/03/14 by Morten Henriksen
 - attempt to get everything up to date
 
 - Add notice about mrt having troubles figuring out deps
 
-- *Merged pull-request:* "Removed redundant installation instructions." [#212](https://github.com/CollectionFS/Meteor-CollectionFS/issues/212) ([lleonard188](https://github.com/lleonard188))
+- *Merged pull-request:* "Removed redundant installation instructions." [#212](https://github.com/zcfs/Meteor-CollectionFS/issues/212) ([lleonard188](https://github.com/lleonard188))
 
 - up to date
 
@@ -131,21 +131,21 @@ Patches by GitHub users [@DanielDornhardt](https://github.com/DanielDornhardt), 
 
 Patches by GitHub user [@lleonard188](https://github.com/lleonard188).
 
-## [v0.4.3] (https://github.com/CollectionFS/Meteor-CollectionFS/tree/v0.4.3)
+## [v0.4.3] (https://github.com/zcfs/Meteor-CollectionFS/tree/v0.4.3)
 #### 23/03/14 by Morten Henriksen
 - use collectionFS travis version force update
 
-## [v0.4.2] (https://github.com/CollectionFS/Meteor-CollectionFS/tree/v0.4.2)
+## [v0.4.2] (https://github.com/zcfs/Meteor-CollectionFS/tree/v0.4.2)
 #### 22/03/14 by Morten Henriksen
 - change deps
 
 - Add read me about transformWrite
 
-## [v0.4.1] (https://github.com/CollectionFS/Meteor-CollectionFS/tree/v0.4.1)
+## [v0.4.1] (https://github.com/zcfs/Meteor-CollectionFS/tree/v0.4.1)
 #### 21/03/14 by Morten Henriksen
 - update reference to devel branch
 
-- Merge branch 'devel' of https://github.com/CollectionFS/Meteor-CollectionFS into devel
+- Merge branch 'devel' of https://github.com/zcfs/Meteor-CollectionFS into devel
 
 - don't need to install transfer
 
@@ -157,7 +157,7 @@ Patches by GitHub user [@lleonard188](https://github.com/lleonard188).
 
 - Remove ejson-file imply
 
-## [v0.4.0] (https://github.com/CollectionFS/Meteor-CollectionFS/tree/v0.4.0)
+## [v0.4.0] (https://github.com/zcfs/Meteor-CollectionFS/tree/v0.4.0)
 #### 06/03/14 by Eric Dobbertin
 - add section for documenting example code for common tasks, and add some of the examples; @raix feel free to add more
 
@@ -179,7 +179,7 @@ Patches by GitHub user [@lleonard188](https://github.com/lleonard188).
 
 - refactor everything into packages
 
-## [devel-merge-old] (https://github.com/CollectionFS/Meteor-CollectionFS/tree/devel-merge-old)
+## [devel-merge-old] (https://github.com/zcfs/Meteor-CollectionFS/tree/devel-merge-old)
 #### 12/02/14 by Eric Dobbertin
 - update to latest FileSaver.js
 
@@ -227,7 +227,7 @@ Patches by GitHub user [@lleonard188](https://github.com/lleonard188).
 
 - Add check for the Accounts package
 
-- *Fixed bug:* "no userId passed to download allow validator" [#120](https://github.com/CollectionFS/Meteor-CollectionFS/issues/120)
+- *Fixed bug:* "no userId passed to download allow validator" [#120](https://github.com/zcfs/Meteor-CollectionFS/issues/120)
 
 - always append access token to url when a user is logged in; makes usage simpler to do opt-out rather than opt-in
 
@@ -263,13 +263,13 @@ Patches by GitHub user [@lleonard188](https://github.com/lleonard188).
 
 - use mmmagic 0.3.5
 
-- *Fixed bug:* "Option to set Cache-Control and Max-Age" [#117](https://github.com/CollectionFS/Meteor-CollectionFS/issues/117)
+- *Fixed bug:* "Option to set Cache-Control and Max-Age" [#117](https://github.com/zcfs/Meteor-CollectionFS/issues/117)
 
 - fix stuff that's broken
 
-## [v0.3.7] (https://github.com/CollectionFS/Meteor-CollectionFS/tree/v0.3.7)
+## [v0.3.7] (https://github.com/zcfs/Meteor-CollectionFS/tree/v0.3.7)
 #### 08/01/14 by Morten Henriksen
-- *Fixed bug:* "How to store files on the server side?" [#29](https://github.com/CollectionFS/Meteor-CollectionFS/issues/29)
+- *Fixed bug:* "How to store files on the server side?" [#29](https://github.com/zcfs/Meteor-CollectionFS/issues/29)
 
 - rework ejson and remove fsFile.reload
 
@@ -309,7 +309,7 @@ Patches by GitHub user [@lleonard188](https://github.com/lleonard188).
 
 - fix null options
 
-- *Fixed bug:* "no userId passed to download allow validator" [#120](https://github.com/CollectionFS/Meteor-CollectionFS/issues/120)
+- *Fixed bug:* "no userId passed to download allow validator" [#120](https://github.com/zcfs/Meteor-CollectionFS/issues/120)
 
 - make useHTTP true by default
 
@@ -347,7 +347,7 @@ Patches by GitHub user [@lleonard188](https://github.com/lleonard188).
 
 - fix some issues with recent commits
 
-- *Merged pull-request:* "Updates the filter example area so that it works" [#109](https://github.com/CollectionFS/Meteor-CollectionFS/issues/109) ([cramhead](https://github.com/cramhead))
+- *Merged pull-request:* "Updates the filter example area so that it works" [#109](https://github.com/zcfs/Meteor-CollectionFS/issues/109) ([cramhead](https://github.com/cramhead))
 
 - add .npm to gitignore
 
@@ -383,7 +383,7 @@ Patches by GitHub user [@lleonard188](https://github.com/lleonard188).
 
 - fix get/download of copies
 
-- *Fixed bug:* "Files after certain size aren't saved properly. " [#104](https://github.com/CollectionFS/Meteor-CollectionFS/issues/104)
+- *Fixed bug:* "Files after certain size aren't saved properly. " [#104](https://github.com/zcfs/Meteor-CollectionFS/issues/104)
 
 - add fileobject metadata and acceptDropsOn
 
@@ -423,11 +423,11 @@ Patches by GitHub user [@lleonard188](https://github.com/lleonard188).
 
 - change UploadsCollection to CollectionFS; change former CollectionFS to GridFS and don't export it (used only by the gridfs storage adaptor); clean up some other areas and update readmes
 
-- *Fixed bug:* "retrieveBlob failure" [#93](https://github.com/CollectionFS/Meteor-CollectionFS/issues/93)
+- *Fixed bug:* "retrieveBlob failure" [#93](https://github.com/zcfs/Meteor-CollectionFS/issues/93)
 
 - implement http methods URLs
 
-- Merge branch 'devel' of https://github.com/CollectionFS/Meteor-CollectionFS.git into devel
+- Merge branch 'devel' of https://github.com/zcfs/Meteor-CollectionFS.git into devel
 
 - significant revisions to move downloading support to the UploadsCollection and make collectionFS/gridFS a pure storage adaptor
 
@@ -461,11 +461,11 @@ Patches by GitHub user [@lleonard188](https://github.com/lleonard188).
 
 - complete refactoring; temporary for testing/tweaking and then will split into multiple packages
 
-- *Merged pull-request:* "Implemented max parallel transfers" [#62](https://github.com/CollectionFS/Meteor-CollectionFS/issues/62) ([floo51](https://github.com/floo51))
+- *Merged pull-request:* "Implemented max parallel transfers" [#62](https://github.com/zcfs/Meteor-CollectionFS/issues/62) ([floo51](https://github.com/floo51))
 
 Patches by GitHub users [@cramhead](https://github.com/cramhead), [@floo51](https://github.com/floo51).
 
-## [v0.3.6] (https://github.com/CollectionFS/Meteor-CollectionFS/tree/v0.3.6)
+## [v0.3.6] (https://github.com/zcfs/Meteor-CollectionFS/tree/v0.3.6)
 #### 10/10/13 by Morten Henriksen
 - Edit ideas about storage adapters and filehandlers
 
@@ -475,15 +475,15 @@ Patches by GitHub users [@cramhead](https://github.com/cramhead), [@floo51](http
 
 - Added the org. filemanager demo/example
 
-## [v0.3.5] (https://github.com/CollectionFS/Meteor-CollectionFS/tree/v0.3.5)
+## [v0.3.5] (https://github.com/zcfs/Meteor-CollectionFS/tree/v0.3.5)
 #### 20/09/13 by Morten Henriksen
-## [v0.3.4] (https://github.com/CollectionFS/Meteor-CollectionFS/tree/v0.3.4)
+## [v0.3.4] (https://github.com/zcfs/Meteor-CollectionFS/tree/v0.3.4)
 #### 20/09/13 by Morten Henriksen
 - Extract the examples from collectionFS
 
 - Added examples from @mxab
 
-## [v0.3.3] (https://github.com/CollectionFS/Meteor-CollectionFS/tree/v0.3.3)
+## [v0.3.3] (https://github.com/zcfs/Meteor-CollectionFS/tree/v0.3.3)
 #### 18/09/13 by Morten Henriksen
 - added travis badge
 
@@ -493,9 +493,9 @@ Patches by GitHub users [@cramhead](https://github.com/cramhead), [@floo51](http
 
 - Added metadata getter to docs
 
-## [v0.3.2] (https://github.com/CollectionFS/Meteor-CollectionFS/tree/v0.3.2)
+## [v0.3.2] (https://github.com/zcfs/Meteor-CollectionFS/tree/v0.3.2)
 #### 17/09/13 by Morten Henriksen
-## [v0.3.1] (https://github.com/CollectionFS/Meteor-CollectionFS/tree/v0.3.1)
+## [v0.3.1] (https://github.com/zcfs/Meteor-CollectionFS/tree/v0.3.1)
 #### 16/09/13 by Morten Henriksen
 - Added some details about http.publishing of collections
 
@@ -507,7 +507,7 @@ Patches by GitHub users [@cramhead](https://github.com/cramhead), [@floo51](http
 
 - jshint clean up
 
-- *Fixed bug:* "Exception from setTimeout callback: { stack: [Getter] }" [#64](https://github.com/CollectionFS/Meteor-CollectionFS/issues/64)
+- *Fixed bug:* "Exception from setTimeout callback: { stack: [Getter] }" [#64](https://github.com/zcfs/Meteor-CollectionFS/issues/64)
 
 - Merge branch 'devel'
 
@@ -529,7 +529,7 @@ Patches by GitHub users [@cramhead](https://github.com/cramhead), [@floo51](http
 
 - Run jshint through files
 
-- *Merged pull-request:* "Improvements and Fixes to built-in helpers, storeFiles, and acceptDropsOn" [#51](https://github.com/CollectionFS/Meteor-CollectionFS/issues/51) ([aldeed](https://github.com/aldeed))
+- *Merged pull-request:* "Improvements and Fixes to built-in helpers, storeFiles, and acceptDropsOn" [#51](https://github.com/zcfs/Meteor-CollectionFS/issues/51) ([aldeed](https://github.com/aldeed))
 
 - Add generic events system, switch to "enums" for invalid event types, and change "fileFilter" to "filter" throughout. Update README to reflect these changes.
 
@@ -545,11 +545,11 @@ Patches by GitHub users [@cramhead](https://github.com/cramhead), [@floo51](http
 
 - Added credit to @eprochasson
 
-- *Merged pull-request:* "Should fix issue #45" [#50](https://github.com/CollectionFS/Meteor-CollectionFS/issues/50) ([eprochasson](https://github.com/eprochasson))
+- *Merged pull-request:* "Should fix issue #45" [#50](https://github.com/zcfs/Meteor-CollectionFS/issues/50) ([eprochasson](https://github.com/eprochasson))
 
-- *Fixed bug:* "file handlers not showing up in local demo" [#45](https://github.com/CollectionFS/Meteor-CollectionFS/issues/45)
+- *Fixed bug:* "file handlers not showing up in local demo" [#45](https://github.com/zcfs/Meteor-CollectionFS/issues/45)
 
-- *Merged pull-request:* "Update README.md" [#49](https://github.com/CollectionFS/Meteor-CollectionFS/issues/49) ([eprochasson](https://github.com/eprochasson))
+- *Merged pull-request:* "Update README.md" [#49](https://github.com/zcfs/Meteor-CollectionFS/issues/49) ([eprochasson](https://github.com/eprochasson))
 
 - Added meteor style guide for jshint
 
@@ -569,7 +569,7 @@ Patches by GitHub users [@cramhead](https://github.com/cramhead), [@floo51](http
 
 - Document storeFiles() and acceptDropsOn()
 
-- *Merged pull-request:* "Built-ins, fixes, etc." [#48](https://github.com/CollectionFS/Meteor-CollectionFS/issues/48) ([aldeed](https://github.com/aldeed))
+- *Merged pull-request:* "Built-ins, fixes, etc." [#48](https://github.com/zcfs/Meteor-CollectionFS/issues/48) ([aldeed](https://github.com/aldeed))
 
 - Add the new files to the package manifest
 
@@ -587,23 +587,23 @@ Patches by GitHub users [@cramhead](https://github.com/cramhead), [@floo51](http
 
 - New file manager example app showing how to use new features, built-in handlebars helpers, etc.
 
-- *Merged pull-request:* "Minor doc correction" [#47](https://github.com/CollectionFS/Meteor-CollectionFS/issues/47) ([aldeed](https://github.com/aldeed))
+- *Merged pull-request:* "Minor doc correction" [#47](https://github.com/zcfs/Meteor-CollectionFS/issues/47) ([aldeed](https://github.com/aldeed))
 
-- *Merged pull-request:* "Documentation Improvement" [#46](https://github.com/CollectionFS/Meteor-CollectionFS/issues/46) ([aldeed](https://github.com/aldeed))
+- *Merged pull-request:* "Documentation Improvement" [#46](https://github.com/zcfs/Meteor-CollectionFS/issues/46) ([aldeed](https://github.com/aldeed))
 
 - Extensively revised README
 
 Patches by GitHub users [@aldeed](https://github.com/aldeed), [@eprochasson](https://github.com/eprochasson).
 
-## [v0.2.3] (https://github.com/CollectionFS/Meteor-CollectionFS/tree/v0.2.3)
+## [v0.2.3] (https://github.com/zcfs/Meteor-CollectionFS/tree/v0.2.3)
 #### 04/05/13 by Morten Henriksen
-- *Fixed bug:* "Binary File Transfers Corrupted? Truncated?" [#41](https://github.com/CollectionFS/Meteor-CollectionFS/issues/41)
+- *Fixed bug:* "Binary File Transfers Corrupted? Truncated?" [#41](https://github.com/zcfs/Meteor-CollectionFS/issues/41)
 
-## [v0.2.2] (https://github.com/CollectionFS/Meteor-CollectionFS/tree/v0.2.2)
+## [v0.2.2] (https://github.com/zcfs/Meteor-CollectionFS/tree/v0.2.2)
 #### 03/05/13 by Morten Henriksen
 - updated scope for serverConsole
 
-- *Fixed bug:* "Error when using fresh meteor install" [#40](https://github.com/CollectionFS/Meteor-CollectionFS/issues/40)
+- *Fixed bug:* "Error when using fresh meteor install" [#40](https://github.com/zcfs/Meteor-CollectionFS/issues/40)
 
 - more text edits
 
@@ -611,7 +611,7 @@ Patches by GitHub users [@aldeed](https://github.com/aldeed), [@eprochasson](htt
 
 - Add credit to README
 
-- *Merged pull-request:* "Option for file encoding" [#36](https://github.com/CollectionFS/Meteor-CollectionFS/issues/36) ([nhibner](https://github.com/nhibner))
+- *Merged pull-request:* "Option for file encoding" [#36](https://github.com/zcfs/Meteor-CollectionFS/issues/36) ([nhibner](https://github.com/nhibner))
 
 - Typo fix.
 
@@ -621,33 +621,33 @@ Patches by GitHub users [@aldeed](https://github.com/aldeed), [@eprochasson](htt
 
 - Allow the user to specify an encoding for the buffer when storing on the server.
 
-- *Merged pull-request:* "Fix backwards incompatibility" [#33](https://github.com/CollectionFS/Meteor-CollectionFS/issues/33) ([mitar](https://github.com/mitar))
+- *Merged pull-request:* "Fix backwards incompatibility" [#33](https://github.com/zcfs/Meteor-CollectionFS/issues/33) ([mitar](https://github.com/mitar))
 
 - Fix backwards incompatibility.
 
 Patches by GitHub users [@nhibner](https://github.com/nhibner), [@mitar](https://github.com/mitar).
 
-## [v0.2.1] (https://github.com/CollectionFS/Meteor-CollectionFS/tree/v0.2.1)
+## [v0.2.1] (https://github.com/zcfs/Meteor-CollectionFS/tree/v0.2.1)
 #### 08/04/13 by Morten Henriksen
 - Minor fixes, added dragndrop, minor refractoring
 
 - Only work on completed files
 
-## [v0.2.0] (https://github.com/CollectionFS/Meteor-CollectionFS/tree/v0.2.0)
+## [v0.2.0] (https://github.com/zcfs/Meteor-CollectionFS/tree/v0.2.0)
 #### 06/04/13 by Morten Henriksen
 - Bump to 0.2.0 - Nice
 
 - Big speed and refractoring
 
-## [v0.1.9] (https://github.com/CollectionFS/Meteor-CollectionFS/tree/v0.1.9)
+## [v0.1.9] (https://github.com/zcfs/Meteor-CollectionFS/tree/v0.1.9)
 #### 31/03/13 by Morten Henriksen
 - Added some more doc, deprecated autosubscribe to autopublish instead
 
-## [v0.1.8] (https://github.com/CollectionFS/Meteor-CollectionFS/tree/v0.1.8)
+## [v0.1.8] (https://github.com/zcfs/Meteor-CollectionFS/tree/v0.1.8)
 #### 31/03/13 by Morten Henriksen
 - Added maxFilehandlers to the doc
 
-## [devel-#27-fixed] (https://github.com/CollectionFS/Meteor-CollectionFS/tree/devel-#27-fixed)
+## [devel-#27-fixed] (https://github.com/zcfs/Meteor-CollectionFS/tree/devel-#27-fixed)
 #### 31/03/13 by Morten Henriksen
 - Added documentation by @petrocket
 
@@ -655,27 +655,27 @@ Patches by GitHub users [@nhibner](https://github.com/nhibner), [@mitar](https:/
 
 - Make a seperate thread + connection foreach collectionFS
 
-## [v0.1.7] (https://github.com/CollectionFS/Meteor-CollectionFS/tree/v0.1.7)
+## [v0.1.7] (https://github.com/zcfs/Meteor-CollectionFS/tree/v0.1.7)
 #### 14/03/13 by Morten Henriksen
-## [v0.1.6] (https://github.com/CollectionFS/Meteor-CollectionFS/tree/v0.1.6)
+## [v0.1.6] (https://github.com/zcfs/Meteor-CollectionFS/tree/v0.1.6)
 #### 13/01/13 by Morten Henriksen
 - Converted .length to string to cope with Meteor use of underscore
 
-## [devel-server-cache] (https://github.com/CollectionFS/Meteor-CollectionFS/tree/devel-server-cache)
+## [devel-server-cache] (https://github.com/zcfs/Meteor-CollectionFS/tree/devel-server-cache)
 #### 11/01/13 by Morten Henriksen
-## [v0.1.5] (https://github.com/CollectionFS/Meteor-CollectionFS/tree/v0.1.5)
+## [v0.1.5] (https://github.com/zcfs/Meteor-CollectionFS/tree/v0.1.5)
 #### 11/01/13 by Morten Henriksen
 - On going tests - db updates gone, requires refresh to commit changes to db - guess some que not working
 
 - removed setTimeout when spawn == 1
 
-## [v0.1.4] (https://github.com/CollectionFS/Meteor-CollectionFS/tree/v0.1.4)
+## [v0.1.4] (https://github.com/zcfs/Meteor-CollectionFS/tree/v0.1.4)
 #### 08/01/13 by Morten Henriksen
-## [v0.1.3] (https://github.com/CollectionFS/Meteor-CollectionFS/tree/v0.1.3)
+## [v0.1.3] (https://github.com/zcfs/Meteor-CollectionFS/tree/v0.1.3)
 #### 08/01/13 by Morten Henriksen
-## [v0.1.2] (https://github.com/CollectionFS/Meteor-CollectionFS/tree/v0.1.2)
+## [v0.1.2] (https://github.com/zcfs/Meteor-CollectionFS/tree/v0.1.2)
 #### 08/01/13 by Morten Henriksen
-## [v0.1.1] (https://github.com/CollectionFS/Meteor-CollectionFS/tree/v0.1.1)
+## [v0.1.1] (https://github.com/zcfs/Meteor-CollectionFS/tree/v0.1.1)
 #### 08/01/13 by Morten Henriksen
 - Big one, added fileHandler to create cashed versions of the file
 
@@ -687,9 +687,9 @@ Patches by GitHub users [@nhibner](https://github.com/nhibner), [@mitar](https:/
 
 - Corrected install guide to use Meteorite
 
-## [v0.1.0] (https://github.com/CollectionFS/Meteor-CollectionFS/tree/v0.1.0)
+## [v0.1.0] (https://github.com/zcfs/Meteor-CollectionFS/tree/v0.1.0)
 #### 07/01/13 by Morten Henriksen
-## [v0.1] (https://github.com/CollectionFS/Meteor-CollectionFS/tree/v0.1)
+## [v0.1] (https://github.com/zcfs/Meteor-CollectionFS/tree/v0.1)
 #### 07/01/13 by Morten Henriksen
 - updated file strukture and example
 

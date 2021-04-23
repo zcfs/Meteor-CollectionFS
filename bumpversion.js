@@ -85,7 +85,7 @@ console.log(is, packagesToBump);
 
 // TODO:
 // 1. check if thers a local version that differs with the previous version -
-//    if so we are already bumped. $meteor show cfs:file --ejson
+//    if so we are already bumped. $meteor show zcfs:file --ejson
 //    read result.versions - pop the two last and check if theres a "local" set
 //    true
 // 2. bump the version accordingly to the flag -m -M
